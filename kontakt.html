@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Craftspace - place where you can craft your thing">
+    <meta name="keywords" content="craft, space, woodworking, ">
+    <meta name="author" content="Krzysiek, Marek, Michał">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Space</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon end -->
+</head>
+
+<body id="top">
+    <!-- scroll up  -->
+    <a data-scroll id="myBtn" class="link" href="#top"><i class="fa fa-angle-double-up fa-3x" aria-hidden="true"></i>
+</a>
+    <header class="container-fluid">
+        <nav class="navbar navbar-toggleable-sm nav-back" id="gora">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" height=40></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Start</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="onas.html">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aktualnosci.html">Aktualności</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="oferta.html">Oferta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active1" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row pt-4 mb-4">
+                <div class="col-md-6 col-sm-12">
+                    <h1>Gdzie nas znajdziesz:</h1>
+                    <ul class="ul_kontakt">
+                        <li><i class="fa fa-address-card" aria-hidden="true"></i> Adres:</li>
+                        <li class="pl-4">Craft Space Bydgoszcz</li>
+                        <li class="pl-4">ul. Jesienna 123</li>
+                        <li class="pl-4">85 – 133 Bydgoszcz</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Tel. 677-422-549</li>
+                      
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> Godziny otwarcia: 7:00 - 22:00</li>
+                        <li><i class="fa fa-line-chart" aria-hidden="true"></i> NIP: 5495875568</li>
+                        <li><i class="fa fa-building" aria-hidden="true"></i> Regon: 211951284</li>
+                        <li><i class="fa fa-gavel" aria-hidden="true"></i> KRS: 000755029</li>
+                        <li><i class="fa fa-bank" aria-hidden="true"></i> Nr Konta: PL 79 3377 3979 5134</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h1>Formularz kontaktowy:</h1>
+                    <form action="/action_page.php" class="ul_kontakt">
+                        <fieldset>                            
+                            <label>Imię:</label>
+                            <input class="input_form" type="text" name="firstname" placeholder="Imię">
+                            <br>
+                            <label>Nazwisko:</label>
+                            <input class="input_form" type="text" name="lastname" placeholder="Nazwisko">
+                            <br>
+                            <label>Wiek:</label>
+                            <input class="input_form" type="text" name="age" placeholder="Wiek">
+                            <br>                            
+                            <label>Wiadomość:</label>
+                            <textarea class="input_form" rows="4" cols="50" placeholder="Twoja wiadomość"></textarea>
+                            <br>
+                            <label>Dołącz plik:</label>
+                            <input class="input_collor" type="file" id="myFile">
+                            <br>
+                            <br>
+                            <input type="submit" placeholder="Submit" class="submit">
+                            <br>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ########### FOOTER ########### -->
+    <footer class="container-fluid footer">
+        <div class="row  mb-5">
+            <div class="media col-md-6 col-sm-12 flex-center">
+                <div class="footer text-center">
+                    <h3>Znajdź Nas</h3>
+                    <a href="http://www.facebook.com" target="_blank" title="Facebook">
+                        <i class="fa fa-facebook-square fa-3x"></i>
+                    </a>
+                    <a href="http://www.twitter.com" target="_blank" title="Twitter">
+                        <i class="fa fa-twitter-square fa-3x"></i>
+                    </a>
+                    <a href="http://www.plus.google.com" target="_blank" title="Google+">
+                        <i class="fa fa-google-plus-square fa-3x"></i>
+                    </a>
+                    <a href="http://www.youtube.com" target="_blank" title="YouTube">
+                        <i class="fa fa-youtube-square fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="media col-md-6 col-sm-12 flex-center">
+                <div class="footer text-center">
+                    <h3>Newsletter</h3>
+                    <p>
+                        Bądź na bierząco
+                    </p>
+                    <form action="#">
+                        <input type="text" placeholder="Twój adres e-mail" name="Newsletter">
+                        <button class="button btn-news button_styl" type="submit">Wyślij</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12">Wszystkie prawa zastrzeżone © Projekt robiony w ramach kursu Work-on2 | 2017 </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script/jquery.min.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/scrypt.js"></script>
+</body>
+
+</html>
